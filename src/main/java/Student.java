@@ -5,6 +5,7 @@ public class Student {
     public static long id;
     public static String name;
     public static ArrayList<Integer> grades;
+
     //returns the student's id
 
     //returns the student's name
@@ -22,8 +23,15 @@ public class Student {
     public static String getName() {
         return name;
     }
+    public void addGrade(int grade){
 
-    public static ArrayList<Integer> getGrades() {
+    }
+
+    public double getGradeAverage(){
+        return 0;
+    }
+
+    public ArrayList<Integer> getGrades() {
         return grades;
     }
 
@@ -37,6 +45,13 @@ public class Student {
 
     public static void setGrades(ArrayList<Integer> grades) {
         Student.grades = grades;
+    }
+
+    public static void updateGrade(){
+
+    }
+    public static void deleteGrade(){
+
     }
 
 
